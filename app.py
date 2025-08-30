@@ -101,7 +101,7 @@ if st.session_state.q_index < len(questions):
 
         # Go to next question
         st.session_state.q_index += 1
-        st.experimental_rerun()
+        st.rerun()
 
 else:
     # Show final results
@@ -121,5 +121,5 @@ else:
     if st.button("Restart Quiz"):
         st.session_state.q_index = 0
         st.session_state.totscore = 0
-        st.experimental_rerun()
+        st.rerun()
 

@@ -56,7 +56,7 @@ questions = [
     
     ("What makes you accept new ideas you learn as being accurate?", 
      ["If a new idea makes sense to me, I will accept it",
-      "I accept only fully accept new ideas after the truth in them is demonstrated",
+      "I only fully accept new ideas after the truth in them is demonstrated",
       "I accept new ideas from people I look up to",
       "I accept new ideas from authorities on the subject"]),
     
